@@ -1,5 +1,5 @@
-1. Môi trường: Windows 10 đã được cài đặt python với pip và opencv (https://opencv.org/releases/)
-2. Nếu chưa có thư viện numpy và argparse: vào cmd, nhập lệnh pip install numpy và pip install argparse
+1. Môi trường: Windows 10 đã được cài đặt python với pip 
+2. Nếu chưa có thư viện numpy,cv2 và argparse: vào cmd, nhập lệnh pip install numpy và pip install opencv-python và pip install argparse 
 3. Download file rar và giải nén
 4. Mở cmd, cd đường dẫn tới file vừa giải nén và nhập câu lệnh python ObjectDetection.py -i img.jpg --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
 5. Nhấn enter
